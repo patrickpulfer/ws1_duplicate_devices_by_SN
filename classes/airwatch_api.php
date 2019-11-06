@@ -1,9 +1,7 @@
 <?php
 
 /*
-
-
-
+Author: Patrick Pulfer (patrick.pulfer1@gmail.com)
 */
 
 class Airwatch {
@@ -31,7 +29,7 @@ class Airwatch {
             $tenant_id = API_Tenant_ID;
         
         // Building URL
-            $cURL_Endpoint = API_Host . $this->api_mdm_v2 . '/?platform=Android&pagesize=99999&lgid='.$group_id;
+            $cURL_Endpoint = API_Host . $this->api_mdm_v2 . '/?platform=Android&pagesize=99999&orderby=lastseen&sortorder=DESC&lgid='.$group_id;
 
 
         // Execute Call

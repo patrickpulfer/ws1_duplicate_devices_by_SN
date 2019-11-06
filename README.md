@@ -1,6 +1,19 @@
-# Delete duplicated devices by Serial Number
+# Delete duplicated devices by Serial Numbe
 
-## PHP script to find duplicate devices by Serial number and delete them from MDM
+## This script will fetch all Android devices from VMware Workspace ONE® UEM via API call and calculate which devices are duplicate an safe to delete.
 
-### Work in Progress!
 
+
+### Author: Patrick Pulfer (patrick.pulfer1@gmail.com)
+### **Note**: I do not accept any responsabilities or liability for using this script.
+
+Requirements:
+- A web server running in Linux
+- PHP7.X with cURL extension
+- Edit *config.php* file to add required details 
+
+
+
+To generate a JSON file with list of devices to delete:
+    
+    php get_duplicates.php

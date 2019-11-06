@@ -14,19 +14,19 @@
 
     // Workspace ONE Environment API
 
-        const API_Host = '';
-        const API_Tenant_ID = '';
-    
+    const API_Host = '';
+    const API_Tenant_ID = '';
 
-    // Workspace ONE API Service Account
 
-        const Service_Admin_Name = '';
-        const Service_Admin_Pass = '';
-    
+// Workspace ONE API Service Account
 
-    // Workspace ONE UEM Config
+    const Service_Admin_Name = '';
+    const Service_Admin_Pass = '!';
 
-        const Organization_Group_ID = 0;
+
+// Workspace ONE UEM Config
+
+    const Organization_Group_ID = 0;
 
 
 
