@@ -1,4 +1,4 @@
-# Delete duplicated devices by Serial Numbe
+# List duplicated devices by Serial Number from VMware Workspace ONE® UEM API
 
 ## This script will fetch all Android devices from VMware Workspace ONE® UEM via API call and calculate which devices are duplicate an safe to delete.
 
